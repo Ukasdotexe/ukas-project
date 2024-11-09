@@ -1,0 +1,22 @@
+/*
+
+*/
+
+.btn-primary {
+  display: inline-block;
+  color: #fff;
+
+  font-size: var(--fs-7);
+  font-weight: 700;
+  line-height: 150%;
+  padding: 10.5px 24px;
+  border-radius: 28px;
+
+  cursor: pointer;
+  transition: 0.25s ease;
+  transition-property: background-color, opacity;
+
+  @media (min-width: 1200px) {
+    padding: 16px 32px;
+  }
+}

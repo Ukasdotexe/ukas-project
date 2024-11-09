@@ -1,0 +1,49 @@
+/*
+
+*/
+
+:root {
+  --color-blue-900: hsl(233, 54%, 16%);
+  --color-blue-600: hsl(234, 25%, 52%);
+  --color-pink-600: hsl(341, 92%, 62%);
+  --color-pink-300: hsl(341, 100%, 83%);
+  --color-grey: hsl(232, 10%, 56%);
+  --color-white: hsl(0, 0%, 100%);
+  --gradient-pink: linear-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%));
+  --gradient-purple: linear-gradient(hsl(237, 100%, 64%), hsl(322, 87%, 55%));
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  font-weight: 800;
+  margin: 0;
+}
+
+p {
+  max-width: 35ch;
+  line-height: 1.5;
+  color: var(--color-grey);
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
