@@ -1,0 +1,5 @@
+
+private void AddNewClient(object sender,eventArgs e)
+{
+  Client.Add(null);
+}
